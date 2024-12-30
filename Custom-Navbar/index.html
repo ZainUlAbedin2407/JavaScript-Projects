@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom Navbar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Full Screen Navbar -->
+    <nav class="container">
+      <div id="logo">
+        <img src="./image.png" alt="Logo" style= "width: 181px; height: 170px;"
+        />
+      </div>
+      <div id="links">
+        <ul id="nav-links">
+          <li class="listOflinks">Home</li>
+          <li class="listOflinks">About</li>
+          <li class="listOflinks">Skills</li>
+          <li class="listOflinks">Reviews</li>
+          <li class="listOflinks">Contact</li>
+        </ul>
+      </div>
+      <div id="btn">
+        <button id="hire-me">Hire Me</button>
+        <i class="fa-solid fa-bars mob-icon"></i>
+      </div>
+    </nav>
+
+    <!-- Mobile screen Navbar -->
+    <nav class="mob">
+      <ul id="nav-links-on-small-screen">
+        <li class="listOflinks">Home</li>
+        <li class="listOflinks">About</li>
+        <li class="listOflinks">Skills</li>
+        <li class="listOflinks">Reviews</li>
+        <li class="listOflinks">Contact</li>
+      </ul>
+    </nav>
+
+    <script src="app.js"></script>
+  </body>
+</html>

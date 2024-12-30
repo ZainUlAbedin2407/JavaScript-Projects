@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Techture Restaurant - Menu</title>
+    <link rel="stylesheet" href="menustyle.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h3>Hi,</h3>
+        <p>What you want to eat today?</p>
+      </header>
+      <nav>
+        <ul>
+          <li onclick="fullMenu()">All</li>
+          <li onclick="specificMenu('breakfast')">Breakfast</li>
+          <li onclick="specificMenu('lunch')">Lunch</li>
+          <li onclick="specificMenu('shakes')">Shakes</li>
+        </ul>
+      </nav>
+
+      <!-- Menu items -->
+      <div id="menu-list">
+        <div id="menu-items">
+          <div class="card breakfast">
+            <img src="./Assets/paratha.jpg" alt="Paratha" />
+            <h4>Paratha</h4>
+            <p class="detail">A crispy and buttery flatbread.</p>
+            <p class="price">Price: $2</p>
+          </div>
+          <div class="card breakfast">
+            <img src="./Assets/pancakes.jpg" alt="Pancakes" />
+            <h4>Pancakes</h4>
+            <p class="detail">A crispy and buttery flatbread.</p>
+            <p class="price">Price: $5</p>
+          </div>
+          <div class="card breakfast">
+            <img src="./Assets/egg.jpg" alt="Egg" />
+            <h4>Eggs</h4>
+            <p class="detail">A crispy and buttery flatbread.</p>
+            <p class="price">Price: $1</p>
+          </div>
+          <div class="card breakfast">
+            <img src="./Assets/halwa-puri.jpg" alt="Halwa-Puri" />
+            <h4>Halwa Puri</h4>
+            <p class="detail">A crispy and buttery flatbread.</p>
+            <p class="price">Price: $7</p>
+          </div>
+          <div class="card lunch">
+            <img src="./Assets/Butter-Chicken.webp" alt="Butter Chicken" />
+            <h4>Butter Chicken</h4>
+            <p class="detail">A healthy mix of greens.</p>
+            <p class="price">Price: $20</p>
+          </div>
+          <div class="card lunch">
+            <img src="./Assets/Biryani.webp" alt="Biryani" />
+            <h4>Biryani</h4>
+            <p class="detail">A healthy mix of greens.</p>
+            <p class="price">Price: $10</p>
+          </div>
+          <div class="card lunch">
+            <img src="./Assets/qorma.jpg" alt="Qorma" />
+            <h4>Qorma</h4>
+            <p class="detail">A healthy mix of greens.</p>
+            <p class="price">Price: $8</p>
+          </div>
+          <div class="card lunch">
+            <img src="./Assets/Chicken-Karahi.jpg" alt="Chicken Karahi" />
+            <h4>Chicken Karahi</h4>
+            <p class="detail">A healthy mix of greens.</p>
+            <p class="price">Price: $15</p>
+          </div>
+          <div class="card shakes">
+            <img src="./Assets/banana-shake.jpg" alt="Banana Shake" />
+            <h4>Banana Shake</h4>
+            <p class="detail">A healthy mix of greens.</p>
+            <p class="price">Price: $6</p>
+          </div>
+          <div class="card shakes">
+            <img src="./Assets/choclate-shake.jpg" alt="Chocolate Shake" />
+            <h4>Chocolate Shake</h4>
+            <p class="detail">A healthy mix of greens.</p>
+            <p class="price">Price: $7</p>
+          </div>
+          <div class="card shakes">
+            <img src="./Assets/stawberry-shake.jpg" alt="Strawberry Shake" />
+            <h4>Strawberry Shake</h4>
+            <p class="detail">A healthy mix of greens.</p>
+            <p class="price">Price: $8</p>
+          </div>
+          <div class="card shakes">
+            <img src="./Assets/mango-lassi.jpg" alt="Mango Lassi" />
+            <h4>Mango Lassi</h4>
+            <p class="detail">A healthy mix of greens.</p>
+            <p class="price">Price: $9</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

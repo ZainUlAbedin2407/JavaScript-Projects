@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number Counter</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="header">
+      <p class="info-img">
+        <i class="fa-solid fa-circle-info info" onclick="showInfo()"></i>
+      </p>
+      <p class="theme-toggle">
+        <i class="fa-solid fa-moon" id="themeIcon" onclick="toggleTheme()"></i>
+      </p>
+      <p class="info-img">
+        <i class="fa-solid fa-rotate-right refresh" onclick="refresh()"></i>
+      </p>
+    </div>
+
+    <!-- hero Section -->
+    <div class="counter">
+      <p class="number">0</p>
+      <i class="fa-solid fa-plus plus-icon" onclick="increment()"></i>
+      <i class="fa-solid fa-minus minus-icon" onclick="decrement()"></i>
+    </div>
+
+    <!-- Overlay -->
+    <div class="overlay" id="infoOverlay">
+      <div class="overlay-content">
+        <h2>Simple Counter</h2>
+        <p>A simple tool for counting things and keeping track of numbers.</p>
+        <p>© Zain Ul Abedin</p>
+        <i class="fa-solid fa-xmark close-icon" onclick="closeInfo()"></i>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

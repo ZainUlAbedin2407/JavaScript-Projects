@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Role a Dice</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="container">
+        <div id="boxes">
+            <div id="box1">
+                <div class="score">
+                    <h3 class="players" id="player1">PLAYER 1</h3>
+                    <p class="final-score" id="finalScoreOfPlayer1">0</p>
+                </div>
+                <div class="current-score-div">
+                    <p class="current-text">CURRENT</p>
+                    <p class="current-score" id="currentScoreOfPlayer1">0</p>
+                </div>
+            </div>
+
+            <div id="central-buttons">
+                <button class="game-btn" id="new-game" onclick="restartGame()"><i class="fa-solid fa-rotate icon"></i>NEW GAME</button>
+                <img src="" alt="dice" id="dice" style="visibility:hidden;">
+                <button class="game-btn" id="roll-dice" onclick="rollingDice()"><i class="fa-solid fa-dice icon"></i>ROLL DICE</button>
+                <button class="game-btn" id="hold" onclick="holdPoints()"><i class="fa-solid fa-hand icon"></i>HOLD</button>
+            </div>
+
+            <div id="box2">
+                <div class="score">
+                    <h3 class="players" id="player2">PLAYER 2</h3>
+                    <p class="final-score" id="finalScoreOfPlayer2">0</p>
+                </div>
+                <div class="current-score-div">
+                    <p class="current-text">CURRENT</p>
+                    <p class="current-score" id="currentScoreOfPlayer2">0</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+#container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom right, red, purple);
+  opacity: 0.8;
+}
+#boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 70%;
+  width: 60%;
+  background-color: white;
+  opacity: 0.7;
+  box-shadow: 10px 10px 20px rgb(7, 6, 6);
+  border-radius: 8px;
+}
+#box1,
+#box2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 10px;
+  overflow: hidden;
+}
+#box1 {
+  background-color: #af6e8e;
+}
+.score,
+.current-score-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.current-score-div {
+  background-color: rgb(190 52 76);
+  padding: 10px;
+  width: 120px;
+  height: 72px;
+  border-radius: 5px;
+  color: white;
+  gap: 10px;
+}
+.players {
+  font-size: 32px;
+  color: black;
+}
+.final-score {
+  color: rgb(190 52 76);
+  font-size: 100px;
+}
+.current-text {
+  font-size: 12px;
+}
+.current-score {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+/* Central Buttons */
+#central-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.game-btn {
+  border: none;
+  border-radius: 20px;
+  padding: 15px 20px;
+  font-size: 12px;
+  cursor: pointer;
+  box-shadow: 0px 4px 10px rgba(68, 67, 67, 0.6);
+  transition: background-color 0.3s ease;
+}
+
+.game-btn:hover {
+  color: white;
+}
+
+#central-buttons button#new-game {
+  background-color: rgb(160 160 160);
+}
+
+#central-buttons button#roll-dice {
+  background-color: rgb(52 190 76);
+}
+
+#central-buttons button#hold {
+  background-color: rgb(52 76 190);
+}
+.icon {
+  margin-right: 4px;
+}
+
+#dice {
+  background: #fff;
+  opacity: 1;
+  border-radius: 12px;
+  height: 100px;
+  width: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  #central-buttons {
+    padding: 10px;
+    gap: 15px;
+    flex-direction: row;
+  }
+
+  .game-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  #dice {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .players {
+    font-size: 26px;
+  }
+  #central-buttons {
+    gap: 12px;
+    padding: 10px;
+    flex-direction: column;
+  }
+  .game-btn {
+    font-size: 10px;
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 10px 12px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .players {
+    font-size: 22px;
+  }
+  #central-buttons {
+    gap: 12px;
+    padding: 10px;
+    flex-direction: row;
+  }
+  .game-btn {
+    font-size: 9px;
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 8px 10px;
+  }
+  #dice {
+    width: 70px;
+    height: 70px;
+    border-radius: 9px;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  #boxes {
+    grid-template-columns: 1fr;
+    width: 90%;
+    height: auto;
+  }
+
+  #box1,
+  #box2 {
+    padding: 20px 5px;
+  }
+
+  #central-buttons {
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+  }
+
+  .game-btn {
+    padding: 8px 12px;
+    font-size: 10px;
+  }
+
+  #dice {
+    width: 60px;
+    height: 60px;
+  }
+}
