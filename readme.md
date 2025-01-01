@@ -47,7 +47,7 @@ Welcome to the **JavaScript Projects** repository! 🎉 This is a growing collec
 ### 7. **Project: Roll A Dice Game**  
 - **Description**: A dice-rolling game with animations and score tracking.  
 - **Deployed Link**: [Roll A Dice Game](https://roll-a-dice-game-eight.vercel.app/)  
-- **Source Code**: [GitHub](./Roll-A-Dice-Game)  
+- **Source Code**: [GitHub](./Roll-A-dice-Game)  
 
 ### 8. **Project: Tic Tac Toe**  
 - **Description**: A classic Tic Tac Toe game for two players.  

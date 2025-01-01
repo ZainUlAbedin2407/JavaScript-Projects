@@ -11,15 +11,7 @@
 
 ## 🌐 Live Demo
 
-Check out the live demo of the Color Flipper [here](https://zainulabedin2407.github.io/colorflipper/). 
-
-## 📂 Project Structure
-
-```plaintext
-├── index.html      # Main HTML file
-├── style.css       # CSS file for styling
-└── app.js          # JavaScript file containing color change logic
-```
+Check out the live demo of the Color Flipper [here](https://color-flipper-pi.vercel.app/). 
 
 ## 📜 How It Works
 
@@ -44,9 +36,5 @@ Check out the live demo of the Color Flipper [here](https://zainulabedin2407.git
 - **HTML5**
 - **CSS3**
 - **JavaScript**
-
-## 📄 License
-
-This project is open-source and available under the MIT License.
 
 Enjoy exploring JavaScript basics and flipping colors! 🎉

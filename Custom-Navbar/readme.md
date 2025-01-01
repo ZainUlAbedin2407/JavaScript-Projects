@@ -19,6 +19,11 @@ This project demonstrates a fully responsive custom navigation bar with a toggle
 - **Font Awesome Icons**:
   - Professional icons used for a polished appearance.
 
+
+## 🌐 Live Demo
+
+Check out the live demo of the Custom Navbar [here](https://custom-navbar-lovat.vercel.app/). 
+
 ## 🎨 Design Details
 
 ### Full-Screen Navbar:
@@ -37,9 +42,8 @@ This project demonstrates a fully responsive custom navigation bar with a toggle
 - **Mobile Menu Background**: `rgb(15, 7, 21)`
 - **Button Styles**: Clean white background with blue text.
 
-## 🚀 How to Use
+---
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/ZainUlAbedin2407/Custom-Navbar
-   cd custom-navbar
+Happy Coding
+
+---

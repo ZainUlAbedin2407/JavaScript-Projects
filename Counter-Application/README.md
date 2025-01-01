@@ -10,6 +10,11 @@ This project is a simple and intuitive number counter that allows users to incre
 - **Info Overlay:** A pop-up overlay with information about the counter.
 - **Responsive Design:** Adapts to different screen sizes for a seamless experience on mobile and desktop.
 
+
+## 🌐 Live Demo
+
+Check out the live demo of the Counter Application [here](https://counter-application-dun.vercel.app/). 
+
 ## Technologies Used
 
 - **HTML**
@@ -27,4 +32,3 @@ This project is a simple and intuitive number counter that allows users to incre
 4. Use the refresh icon to reset the counter.
 5. Toggle between light and dark modes by clicking the moon/sun icon.
 6. Click the info icon to learn more about the counter functionality.
-

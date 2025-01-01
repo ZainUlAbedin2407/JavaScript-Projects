@@ -28,4 +28,4 @@ Feel free to fork this repository and contribute to the project. Pull requests a
 
 ## Live Preview
 
-Deployed on Vercel: [https://todo-list-kohl-psi.vercel.app/](https://todo-list-kohl-psi.vercel.app/)
+Deployed on Vercel: [Click Here](https://todo-list-kohl-psi.vercel.app/)

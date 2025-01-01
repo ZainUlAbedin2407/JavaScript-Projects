@@ -30,7 +30,7 @@ This project is a fully functional video player with custom controls built using
 
 ## Live Preview
 
-Deployed on Vercel: [https://todo-list-kohl-psi.vercel.app/](https://todo-list-kohl-psi.vercel.app/)
+Deployed on Vercel: [Click Here](https://todo-list-kohl-psi.vercel.app/)
 
 ---
 

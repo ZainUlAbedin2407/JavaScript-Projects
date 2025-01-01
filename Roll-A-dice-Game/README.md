@@ -23,6 +23,10 @@ A fun and interactive two-player dice game where players compete to reach 100 po
 - New game functionality
 - Real-time score updates
 
+## 🌐 Live Demo
+
+Check out the live demo of the Color Flipper [here](https://roll-a-dice-game-eight.vercel.app/).
+
 ## 🛠️ Technologies Used
 
 - HTML5
@@ -33,5 +37,7 @@ A fun and interactive two-player dice game where players compete to reach 100 po
 ## 🚀 Getting Started
 
 1. Clone the repository:
+
 ```bash
-git clone https://github.com/ZainUlAbedin2407/Roll-A-dice-Game.git  
+git clone https://github.com/ZainUlAbedin2407/Roll-A-dice-Game.git
+```

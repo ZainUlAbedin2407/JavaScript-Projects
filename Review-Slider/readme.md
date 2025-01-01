@@ -6,22 +6,26 @@ This project is a simple yet functional **Review Carousel** built using JavaScri
 
 The primary goal of this project is to enhance and solidify JavaScript logic by implementing core concepts such as:
 
-- DOM manipulation  
-- Conditional rendering  
-- Array navigation  
+- DOM manipulation
+- Conditional rendering
+- Array navigation
 
 ## Features
 
-- Navigate through reviews with "Previous" and "Next" buttons.  
-- Reviews include a name, profession, profile image, and personalized feedback.  
-- Button visibility dynamically updates (e.g., "Previous" button hides on the first review).  
-- Responsive design and user-friendly interface.  
+- Navigate through reviews with "Previous" and "Next" buttons.
+- Reviews include a name, profession, profile image, and personalized feedback.
+- Button visibility dynamically updates (e.g., "Previous" button hides on the first review).
+- Responsive design and user-friendly interface.
+
+## 🌐 Live Demo
+
+Check out the live demo of the Color Flipper [here](https://review-slider-eosin.vercel.app/).
 
 ## How It Works
 
-1. JavaScript fetches data from an array of review objects.  
-2. Displays review details dynamically in the DOM.  
-3. Navigation buttons update the `currentIndex` and load the respective review.  
+1. JavaScript fetches data from an array of review objects.
+2. Displays review details dynamically in the DOM.
+3. Navigation buttons update the `currentIndex` and load the respective review.
 
 ## Installation
 
@@ -33,12 +37,12 @@ The primary goal of this project is to enhance and solidify JavaScript logic by 
 
 ## Technologies Used
 
-- **HTML**: For the structure.  
-- **CSS**: For styling the layout.  
+- **HTML**: For the structure.
+- **CSS**: For styling the layout.
 - **JavaScript**: To handle functionality and logic.
 
 ## Learnings
 
-- Mastered DOM manipulation and conditional rendering.  
-- Improved understanding of JavaScript functions and array handling.  
-- Strengthened debugging skills and project structuring.  
+- Mastered DOM manipulation and conditional rendering.
+- Improved understanding of JavaScript functions and array handling.
+- Strengthened debugging skills and project structuring.
