@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pause And Play</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="video-container">
+      <video>
+        <source src="./video.mp4" />
+      </video>
+
+      <div class="controls-container">
+        <div class="progress-controls">
+          <div class="progress-bar">
+            <div class="progress">
+              <div class="watched-progress">
+                <div class="watched-bar"></div>
+                <div class="play-head"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="controls">
+          <div class="left-side-controls">
+            <div class="play-pause-btn btn">
+              <img
+                src="./Assets/play.svg"
+                alt="Play Button"
+                class="play"
+                width="20px"
+                draggable="false"
+              />
+              <img
+                src="./Assets/pause.svg"
+                alt="pause Button"
+                class="pause"
+                width="20px"
+                draggable="false"
+              />
+            </div>
+            <!-- <div class="next-video-btn btn">
+              <img
+                src="./Assets/next.svg"
+                alt="Next Button"
+                width="15px"
+                draggable="false"
+              />
+            </div> -->
+            <div class="volume-control">
+              <div class="volume-btn btn">
+                <img
+                  src="./Assets/volume.svg"
+                  alt="Volume Button"
+                  class="full-volume"
+                  width="20px"
+                  draggable="false"
+                />
+                <img
+                  src="./Assets/mute.svg"
+                  alt="Mute Button"
+                  class="muted"
+                  width="20px"
+                  draggable="false"
+                />
+              </div>
+            </div>
+            <!-- <div class="time-display">
+              <span class="current-time">0:00</span>
+              <span class="time-separator">&nbsp;/&nbsp;</span>
+              <span class="video-duration">1:57</span>
+            </div> -->
+          </div>
+
+          <div class="right-side-controls">
+            <!-- <div class="settings-btn btn">
+              <img
+                src="./Assets/settings.svg"
+                alt="Setting Button"
+                width="20px"
+                draggable="false"
+              />
+            </div> -->
+            <div class="full-screen-btn btn">
+              <img
+                draggable="false"
+                class="maximize"
+                src="./Assets/maximize-screen.svg"
+                alt="maximize-screen"
+                width="18px"
+              />
+              <img
+                draggable="false"
+                class="minimize"
+                src="./Assets/minimize-screen.svg"
+                alt="minimize-screen"
+                width="20px"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

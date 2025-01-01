@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  font-family: "Roboto", serif;
+}
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 85vh;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.video-container video {
+  width: 100%;
+  height: 100%;
+}
+.video-container .controls-container {
+  position: absolute;
+  bottom: 0;
+  /* width: 98vw; */
+  margin: auto;
+}
+.video-container .controls-container .progress-controls {
+  width: 100%;
+  height: 6px;
+  display: flex;
+  align-items: center;
+}
+.video-container .controls-container .progress-controls .progress-bar {
+  position: relative;
+  width: 100%;
+  height: 3.5px;
+  background: #424242;
+  display: flex;
+  align-items: center;
+}
+.video-container
+  .controls-container
+  .progress-controls
+  .progress-bar
+  .progress {
+  position: absolute;
+  left: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.video-container
+  .controls-container
+  .progress-controls
+  .progress-bar
+  .progress
+  .watched-progress {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.video-container
+  .controls-container
+  .progress-controls
+  .progress-bar
+  .progress
+  .watched-bar {
+  background: #e31221;
+  /* width: 50%; */
+  height: 100%;
+  transition: height 0.2s;
+}
+.video-container
+  .controls-container
+  .progress-controls
+  .progress-bar
+  .progress
+  .play-head {
+  position: absolute;
+  background: #e31221;
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  transition: width 0.2s, height 0.2s;
+}
+.video-container .controls-container .progress-controls:hover > .progress-bar {
+  height: 5px;
+}
+.video-container
+  .controls-container
+  .progress-controls:hover
+  > .progress-bar
+  .progress
+  .play-head {
+  width: 15px;
+  height: 15px;
+}
+.video-container .controls-container .controls {
+  position: relative;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.video-container .controls-container .controls .btn {
+  width: 45px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+.video-container .controls-container .controls .left-side-controls {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  flex-grow: 2;
+}
+.video-container
+  .controls-container
+  .controls
+  .left-side-controls
+  .time-display {
+  color: #fff;
+  font-size: 13px;
+  padding: 0 5px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  pointer-events: none;
+  user-select: none;
+}
+.video-container .controls-container .controls .right-side-controls {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}
