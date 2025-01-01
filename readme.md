@@ -31,7 +31,7 @@ Welcome to the **JavaScript Projects** repository! 🎉 This is a growing collec
 
 ### 4. **Project: Pause and Play Video**  
 - **Description**: A video player with pause and play controls.  
-- **Deployed Link**: [Pause and Play Video](https://your-deployed-link.com/pause-play-video)  
+- **Deployed Link**: [Pause and Play Video](https://pause-and-play.vercel.app/)  
 - **Source Code**: [GitHub](./Pause-And-Play-Video)  
 
 ### 5. **Project: Restaurant Menu**  

@@ -18,19 +18,16 @@ This project is a fully functional video player with custom controls built using
 
 1. Clone the repository or download the project files:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/ZainUlAbedin2407/JavaScript-Projects/tree/main/Pause-And-Play-Video
    ```
 
 2. Open the `index.html` file in your browser to view and interact with the video player.
-
-3. Add your video file:
-   - Replace the `video.mp4` in the `<source>` tag of the `video` element with your own video file.
 
 ---
 
 ## Live Preview
 
-Deployed on Vercel: [Click Here](https://todo-list-kohl-psi.vercel.app/)
+Deployed on Vercel: [Click Here](https://pause-and-play.vercel.app/)
 
 ---
 
