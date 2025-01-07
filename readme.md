@@ -59,6 +59,12 @@ Welcome to the **JavaScript Projects** repository! 🎉 This is a growing collec
 - **Deployed Link**: [Todo List](https://todo-list-kohl-psi.vercel.app/)  
 - **Source Code**: [GitHub](./Todo-List)  
 
+### 10. **Project: Login/SignUp Form**  
+- **Description**: A login/signUp form with features like user validation, password visibility toggle, and local storage for user data. 
+- **Deployed Link**: [Login/SignUp Form]()  
+- **Source Code**: [GitHub](./Login-Signup-Form)  
+
+
 ---  
 
 ## 🚀 **Getting Started**  

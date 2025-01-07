@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup your Account</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="signup.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-box">
+        <h1>Sign Up</h1>
+        <form>
+          <div class="input-group">
+            <div class="input-field">
+              <i class="fa-solid fa-user"></i>
+              <input id="userName" type="text" placeholder="Username" autocomplete="off"  />
+            </div>
+
+            <div id="isUserExist"></div>
+
+            <div class="input-field">
+              <i class="fa-solid fa-envelope"></i>
+              <input id="email" type="email" placeholder="Email" autocomplete="off"  />
+            </div>
+
+            <div id="isEmailExist"></div>
+
+            <div class="input-field" style="margin-bottom: 0">
+              <i class="fa-solid fa-lock"></i>
+              <input
+                id="password"
+                class="passwordField"
+                type="password"
+                placeholder="Password"
+                autocomplete="off" 
+              />
+              <i class="fa-solid fa-eye eye-icon"></i>
+            </div>
+
+            <div id="passwordCheck"></div>
+
+            <div class="input-field" style="margin-bottom: 0">
+              <i class="fa-solid fa-lock"></i>
+              <input
+                id="confirmPassword"
+                class="passwordField"
+                type="password"
+                placeholder="Confirm Password"
+                autocomplete="off" 
+              />
+              <i class="fa-solid fa-eye eye-icon"></i>
+            </div>
+
+            <div id="isPasswordMatch" style="margin-bottom: 8px"></div>
+
+            <p>
+              Already have an account? <a href="../login/login.html">Sign in</a>
+            </p>
+          </div>
+          <button type="submit">Sign Up</button>
+        </form>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
