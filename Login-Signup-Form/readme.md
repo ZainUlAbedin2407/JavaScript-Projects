@@ -36,7 +36,7 @@ This project includes a signup, login, and home page to create a seamless user e
 4. After logging in, you will land on the home page.
 
 ## Live Preview
-Deployed on Vercel: [Click Here]()
+Deployed on Vercel: [Click Here](https://authentication-form-sepia.vercel.app/login/login.html)
 
 ### Redirect Page
 - Displays a "Redirecting..." message.
