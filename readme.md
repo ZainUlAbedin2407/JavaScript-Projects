@@ -64,6 +64,11 @@ Welcome to the **JavaScript Projects** repository! 🎉 This is a growing collec
 - **Deployed Link**: [Login/SignUp Form](https://authentication-form-sepia.vercel.app/login/login.html)  
 - **Source Code**: [GitHub](./Login-Signup-Form)  
 
+### 11. **Project: Calculator**  
+- **Description**: This is a simple yet stylish calculator built using HTML, CSS, and JavaScript. It includes both light and dark modes, a responsive UI, and basic arithmetic operations.
+- **Deployed Link**: [Login/SignUp Form]()  
+- **Source Code**: [GitHub](./Calculator)  
+
 
 ---  
 
