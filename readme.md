@@ -64,17 +64,6 @@ Welcome to the **JavaScript Projects** repository! 🎉 This is a growing collec
 - **Deployed Link**: [Login/SignUp Form](https://authentication-form-sepia.vercel.app/login/login.html)  
 - **Source Code**: [GitHub](./Login-Signup-Form)  
 
-### 11. **Accordion**  
-- **Description**: This is a simple yet stylish Accordion built using HTML, CSS, and JavaScript. It includes 3 sections to see the information of questions, a responsive UI.
-- **Deployed Link**: [Accordion]()  
-- **Source Code**: [GitHub](./Accordion)  
-
-### 12. **Project: Calculator**  
-- **Description**: This is a simple yet stylish calculator built using HTML, CSS, and JavaScript. It includes both light and dark modes, a responsive UI, and basic arithmetic operations.
-- **Deployed Link**: [Calculator]()  
-- **Source Code**: [GitHub](./Calculator)  
-
-
 ---  
 
 ## 🚀 **Getting Started**  
